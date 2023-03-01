@@ -8,7 +8,7 @@ export function About(){
                 <br />
                 <h1>Nutricionista</h1>
                 <br />
-                <h2>Emily Cadetex</h2>
+                <h2>Emily Cadete</h2>
                 <br /><hr /><br />
                 <p><strong>Nutricionista por paixão e amor a profissão</strong>.  A palavra equilíbrio <br /> sempre me acompanha e levo em conta as individualidades da<br /> paciente, acolhendo-a de forma singular, notando suas nuances, estilo<br/> de vida, desejos e dúvidas.</p>
 

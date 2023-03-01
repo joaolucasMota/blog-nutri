@@ -3,7 +3,7 @@ import { MethodContainer, Image, Text } from "./styles"
 export function Method(){
     return(
         <MethodContainer>
-            <Image src="https://images.pexels.com/photos/15319046/pexels-photo-15319046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="imagem de método">
+            <Image src="https://lirp.cdn-website.com/4dd4966b/dms3rep/multi/opt/photo-1470167290877-7d5d3446de4c-bba841ec-1920w.jpg" alt="imagem de método">
             </Image>
             <Text>
                 <h1>Método</h1>

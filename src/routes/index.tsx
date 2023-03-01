@@ -4,6 +4,11 @@ import { Header } from '../components/Web/header/Header';
 import { MobileHeader } from "../components/Mobile/mobileHeader/mobileHeader";
 import Main from "../pages/Main";
 
+import EmagrecimentoObesidade from "../pages/EmagrecimentoObesidade";
+import TranstornoAlimentar from "../pages/TranstornoAlimentar";
+import NutricaoEsportiva from "../pages/NutricaoEsportiva";
+import ReeducacaoAlimentar from "../pages/ReeducacaoAlimentar";
+import IntoleranciaAlimentar from "../pages/IntoleranciaAlimentar";
 
 export default function RoutesApp(){
     return(
@@ -11,6 +16,11 @@ export default function RoutesApp(){
            {isMobile? <MobileHeader/> : <Header/>} 
             <Routes>
                 <Route path="/" element={<Main/>}/>
+                <Route path="/emagrecimento-obesidade" element={<EmagrecimentoObesidade/>}/>
+                <Route path="/transtorno-alimentar" element={<TranstornoAlimentar/>}/>
+                <Route path="/nutricao-esportiva" element={<NutricaoEsportiva/>}/>
+                <Route path="/reeducacao-alimentar" element={<ReeducacaoAlimentar/>}/>
+                <Route path="/intolerancia-alimentar" element={<IntoleranciaAlimentar/>}/>
             </Routes>
 
         </BrowserRouter>

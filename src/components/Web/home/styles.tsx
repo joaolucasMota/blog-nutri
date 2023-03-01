@@ -7,6 +7,7 @@ export const HomeContainer = styled.div`
     background-image: url('https://i.imgur.com/Nke6bso.png');
     background-size: cover;
     background-position: right;
+    background-attachment: fixed;
 `;
 
 export const ContainerInfoAndPhoto = styled.div`
@@ -15,8 +16,9 @@ export const ContainerInfoAndPhoto = styled.div`
     justify-content: space-around;
     position: relative;
     width: 100%;
-    padding: 6rem;
-    margin-bottom: -20rem;
+    padding: 10rem;
+    margin-bottom: -25rem;
+    margin-top: 2rem;
 `;
 
 export const Informations = styled.div`
@@ -25,7 +27,6 @@ export const Informations = styled.div`
     align-items: center;
     flex-direction: column;
     & h2{
-        z-index: 1;
         font-weight: bold;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 2rem;
@@ -33,7 +34,7 @@ export const Informations = styled.div`
     }
     label{
         color: grey;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
         font-size: large;
     }
     p{

@@ -9,6 +9,7 @@ import { Specialities } from "../components/Web/specialties/Specialities";
 import { Method } from "../components/Web/method/Method";
 import { OnlineService } from "../components/Web/onlineService/OnlineService";
 import { QueryIcons } from "../components/Web/queryIcons/QueryIcons";
+import { Footer } from "../components/Web/footer/Footer";
 
 export default function Main(){
     return(
@@ -23,6 +24,7 @@ export default function Main(){
             <Method/>
             <OnlineService/>
             <QueryIcons/>
+            <Footer/>
         </>)
         }        
         </>

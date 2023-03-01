@@ -7,6 +7,9 @@ export const Navbar = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-around;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
 `;
 
 export const NavbarLinks = styled.ul`

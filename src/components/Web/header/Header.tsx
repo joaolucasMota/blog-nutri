@@ -3,25 +3,32 @@ import {FaInstagram, FaWhatsapp} from "react-icons/fa"
 import {AiOutlineMail} from "react-icons/ai"
 import LogoNav from "../../../assets/logoj.png"
 import {IoIosArrowDown} from "react-icons/io"
+import {Link} from "react-router-dom"
 
 export function Header(){
     return(
         <Navbar>
             <Icon>
-                <AiOutlineMail size={22}/>
-                <FaInstagram size={22}/>
-                <FaWhatsapp size={22}/>
+                <a href="mailto: emilycadetes@gmail.com">
+                    <AiOutlineMail size={22}/>
+                </a>
+                <Link target="_blank" to="https://www.instagram.com/mily.cs/">
+                    <FaInstagram size={22}/>
+                </Link>
+                <Link target="_blank" to= "https://wa.me/5511913629808?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consulta">
+                    <FaWhatsapp size={22}/>
+                </Link>
             </Icon>
 
             <NavbarLinks>
                 <Services>
                     <a href="#">Serviços <IoIosArrowDown/></a>
                     <ul>
-                        <li><a href="#">Emagrecimento & obesidade</a></li>
-                        <li><a href="#">Transtorno alimentar</a></li>
-                        <li><a href="#">Nutrição esportiva</a></li>
-                        <li><a href="#">Reeducação alimentar</a></li>
-                        <li><a href="#">Intolerância ou Alergia alimentar</a></li>
+                        <li><Link to="/emagrecimento-obesidade">Emagrecimento & obesidade</Link></li>
+                        <li><Link to="/transtorno-alimentar">Transtorno alimentar</Link></li>
+                        <li><Link to="/nutricao-esportiva">Nutrição esportiva</Link></li>
+                        <li><Link to="/reeducacao-alimentar">Reeducação alimentar</Link></li>
+                        <li><Link to="/intolerancia-alimentar">Intolerância ou Alergia alimentar</Link></li>
                     </ul>
                 </Services>
                 <label>•</label>
@@ -31,7 +38,7 @@ export function Header(){
            
             
             <Logo>
-                <img src={LogoNav} alt="Logo" />
+                <Link to="/"><img src={LogoNav} alt="Logo" /></Link>
             </Logo>
 
             
@@ -44,9 +51,11 @@ export function Header(){
                 </Contact>
             </NavbarLinks>
             
-            <Button>
-                Agende sua consulta 
-            </Button>
+            <Link target="_blank" to= "https://wa.me/5511913629808?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consulta">
+                <Button>
+                    Agende sua consulta
+                </Button>
+            </Link>
         </Navbar>
     )
 }

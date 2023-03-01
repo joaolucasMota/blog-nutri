@@ -9,7 +9,7 @@ export const MethodContainer = styled.div`
 `;
 
 export const Image = styled.img`
-    width: 25%;
+    width: 35%;
     margin-top: -4rem;
     box-shadow: -2px 1px 20px 3px rgba(0, 0, 0, 0.407);
 `;
