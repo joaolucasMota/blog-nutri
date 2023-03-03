@@ -9,6 +9,9 @@ import TranstornoAlimentar from "../pages/TranstornoAlimentar";
 import NutricaoEsportiva from "../pages/NutricaoEsportiva";
 import ReeducacaoAlimentar from "../pages/ReeducacaoAlimentar";
 import IntoleranciaAlimentar from "../pages/IntoleranciaAlimentar";
+import Metodo from "../pages/Metodo";
+import Sobre from "../pages/Sobre";
+import Contato from "../pages/Contato";
 
 export default function RoutesApp(){
     return(
@@ -21,6 +24,9 @@ export default function RoutesApp(){
                 <Route path="/nutricao-esportiva" element={<NutricaoEsportiva/>}/>
                 <Route path="/reeducacao-alimentar" element={<ReeducacaoAlimentar/>}/>
                 <Route path="/intolerancia-alimentar" element={<IntoleranciaAlimentar/>}/>
+                <Route path="/metodo" element={<Metodo/>}/>
+                <Route path="/sobre" element={<Sobre/>}/>
+                <Route path="/contato" element={<Contato/>}/>
             </Routes>
 
         </BrowserRouter>

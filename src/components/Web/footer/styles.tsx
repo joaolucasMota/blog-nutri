@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const Contact = styled.div`
-    padding: 10rem;
+    padding: 6rem;
     & h5{
         font-size: 2rem;
         color: var(--title);
@@ -34,4 +34,27 @@ export const Icon = styled.div`
     justify-content: space-around;
     padding: 1rem;
     color: var(--title);
+`;
+
+export const EmailContainer = styled.div`
+    display: flex;
+`;
+
+export const EmailLink = styled.p`
+    padding-right: 1rem;
+`;
+
+export const CopyButton = styled.div`
+    & svg{
+        color: green;
+    }
+`;
+
+export const Top = styled.div`
+    background-color: var(--backgroundSecond);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+    color: var(--title);
+    font-size: 1.5rem;
 `;

@@ -33,7 +33,7 @@ export function Header(){
                 </Services>
                 <label>•</label>
                 <Method>
-                    <a href="#">Metodo</a>
+                    <Link to="/metodo">Metodo</Link>
                 </Method>
            
             
@@ -43,11 +43,11 @@ export function Header(){
 
             
                 <About>
-                    <a href="#">Sobre</a>
+                    <Link to="/sobre">Sobre</Link>
                 </About>
                 <label>•</label>
                 <Contact>
-                    <a href="#">Contato</a>
+                    <Link to="/contato">Contato</Link>
                 </Contact>
             </NavbarLinks>
             

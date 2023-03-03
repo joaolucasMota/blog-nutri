@@ -2,12 +2,18 @@ import { isMobile } from "react-device-detect";
 import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/IntoleranciaAlimentar.styles'
 import { Footer } from "../components/Web/footer/Footer";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function IntoleranciaAlimentar(){
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      }, []);
+
     return(
         <>
         {isMobile ? (null) :(
-            <Container>
+            <Container id="section9">
                 <Title>
                     <label>Nossa metodologia com base científica para</label>
                     <h1>Intolerância ou alergia alimentar</h1>

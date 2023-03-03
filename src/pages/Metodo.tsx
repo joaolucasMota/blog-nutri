@@ -1,10 +1,10 @@
 import { isMobile } from "react-device-detect";
-import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/ReeducacaoAlimentar.styles'
+import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/Metodo.styles'
 import { Footer } from "../components/Web/footer/Footer";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function ReeducacaoAlimentar(){
+export default function Metodo(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -15,22 +15,22 @@ export default function ReeducacaoAlimentar(){
         {isMobile ? (null) :(
             <Container id="section9">
                 <Title>
-                    <label>Nossa metodologia com base científica para</label>
-                    <h1>Reeducação alimentar</h1>
+                    <label></label>
+                    <h1>Método</h1>
                 </Title>
                 <InfoAndImg>
                     <Info>
-                        <label>Reeducando a forma de se alimentar</label>
-                        <h1>Reeducação alimentar</h1>
+                        <label></label>
+                        <h1>Metodologia</h1>
                         <br />
-                        <p>Aprender a comer de forma saudável se torna muito mais simples com conhecimento e planejamento, com isso, o papel da nutricionista é te ajudar a desenvolver autonomia e poder de escolha sob a sua alimentação.</p>
+                        <p>O método de atendimento consiste em entregar conhecimento, autonomia e qualidade de vida para o paciente de forma individualizada. Por isso, é importante você saber que em cada consulta nós iremos conversar sobre você, entender sua rotina, dinâmica e padrão de vida para que possamos adequar sua alimentação de maneira leve e simples. Não é sobre dieta, é sobre estilo de vida.</p>
                         <Link target="_blank" to= "https://wa.me/5511913629808?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consulta">
                             <button>Agendar uma consulta</button>
                         </Link>
 
                     </Info>
                     <Img>
-                        <div><img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="nutrição esportiva" /></div>
+                        <div><img src="https://images.pexels.com/photos/1172019/pexels-photo-1172019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="metodologia" /></div>
                     </Img>
                 </InfoAndImg>
                 <SVG>

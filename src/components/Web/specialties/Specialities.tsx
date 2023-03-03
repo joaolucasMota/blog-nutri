@@ -6,14 +6,14 @@ export function Specialities(){
         <SpecialitiesContainer>
             <h1>Minhas Especialidades</h1>
             <TwoCards>
-                <Link to='/'>
+                <Link to='/emagrecimento-obesidade'>
                     <Card>
                         <div className="cardImage" id="card1"/>
                         <h2>Emagrecimento e Obesidade</h2>
                         <p>Quando se trata de obesidade sabemos que a luta é bem maior do que a balança e a estética. Trata-se de qualidade de vida, a nutrição é fundamental para recuperar isso.</p>
                     </Card>
                 </Link>
-                <Link to='/'>
+                <Link to='/transtorno-alimentar'>
                     <Card>
                         <div className="cardImage" id="card2"/>
                         <h2>Transtorno alimentar</h2>
@@ -22,14 +22,14 @@ export function Specialities(){
                 </Link>
             </TwoCards>
             <TwoCards>
-                <Link to='/'>
+                <Link to='/nutricao-esportiva'>
                     <Card>
                         <div className="cardImage" id="card3"/>
                         <h2>Nutrição esportiva </h2>
                         <p>A nutrição esportiva consiste na dos conhecimentos em nutrição, bioquímica e fisiologia na área do esporte, podendo ser sobre estética corporal ou sobre desenvolvimento profissional (no caso de atletas).</p>
                     </Card>
                 </Link>
-                <Link to='/'>
+                <Link to='/reeducacao-alimentar'>
                     <Card>
                         <div className="cardImage" id="card4"/>
                         <h2>Reeducação alimentar </h2>
@@ -38,7 +38,7 @@ export function Specialities(){
                 </Link>
             </TwoCards>
             <OneCard>
-                <Link to='/'>
+                <Link to='/intolerancia-alimentar'>
                     <CardFull>
                         <div/>
                         <h2>Intolerância ou Alergia alimentar </h2>

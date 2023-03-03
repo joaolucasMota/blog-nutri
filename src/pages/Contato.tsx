@@ -1,10 +1,10 @@
 import { isMobile } from "react-device-detect";
-import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/ReeducacaoAlimentar.styles'
+import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/Contato.styles';
 import { Footer } from "../components/Web/footer/Footer";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function ReeducacaoAlimentar(){
+export default function Contato(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -15,22 +15,23 @@ export default function ReeducacaoAlimentar(){
         {isMobile ? (null) :(
             <Container id="section9">
                 <Title>
-                    <label>Nossa metodologia com base científica para</label>
-                    <h1>Reeducação alimentar</h1>
+                    <label></label>
+                    <h1>Contato</h1>
                 </Title>
                 <InfoAndImg>
                     <Info>
-                        <label>Reeducando a forma de se alimentar</label>
-                        <h1>Reeducação alimentar</h1>
+                        <label></label>
+                        <h1>Contato</h1>
                         <br />
-                        <p>Aprender a comer de forma saudável se torna muito mais simples com conhecimento e planejamento, com isso, o papel da nutricionista é te ajudar a desenvolver autonomia e poder de escolha sob a sua alimentação.</p>
+                        <p>Email: emilycadetes@gmail.com <br />
+                        WhatsApp: (11) 91362‑9808</p>
                         <Link target="_blank" to= "https://wa.me/5511913629808?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consulta">
                             <button>Agendar uma consulta</button>
                         </Link>
 
                     </Info>
                     <Img>
-                        <div><img src="https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="nutrição esportiva" /></div>
+                        <div><img src="https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="nutrição esportiva" /></div>
                     </Img>
                 </InfoAndImg>
                 <SVG>
