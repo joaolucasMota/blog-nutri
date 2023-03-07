@@ -13,6 +13,8 @@ import Metodo from "../pages/Metodo";
 import Sobre from "../pages/Sobre";
 import Contato from "../pages/Contato";
 
+import MobileEmagrecimentoObesidade from "../pages/MobileEmagrecimentoObesidade";
+import MobileTranstornoAlimentar from "../pages/MobileTranstornoAlimentar";
 export default function RoutesApp(){
     return(
         <BrowserRouter>
@@ -27,6 +29,9 @@ export default function RoutesApp(){
                 <Route path="/metodo" element={<Metodo/>}/>
                 <Route path="/sobre" element={<Sobre/>}/>
                 <Route path="/contato" element={<Contato/>}/>
+
+                <Route path="/m-emagrecimento-obesidade" element={<MobileEmagrecimentoObesidade/>}/>
+                <Route path="/m-transtorno-alimentar" element={<MobileTranstornoAlimentar/>}/>
             </Routes>
 
         </BrowserRouter>

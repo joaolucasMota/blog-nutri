@@ -1,22 +1,11 @@
 import styled from "styled-components";
 
 export const SuperHomeContainer = styled.div`
-    &::before{
-        content: "";
-        display: block;
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
-        height: 100%;
-        background-image: url('https://images.pexels.com/photos/4020559/pexels-photo-4020559.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-image: url('https://64.media.tumblr.com/d8b3ce6643654c58c2b4c1e19afa7c01/3d1c0c126410384d-bf/s500x750/ebed0d00714a7788517c735b69cb675880f1a8f0.pnj');
         background-size: cover;
         background-attachment: fixed;
-        opacity: 0.2;
         background-position: center;
-        position: fixed;
-        z-index: -1;
-    }
 `;
 
 export const HomeContainer = styled.div`
@@ -27,6 +16,8 @@ export const HomeContainer = styled.div`
     position: relative;
     width: 100%;
     height: 30rem;
+    padding-top: 10rem;
+    opacity: .9;
     & h2{
         z-index: 1;
         font-weight: bold;
@@ -72,7 +63,7 @@ export const Button = styled.button`
     `;
 
 export const SVG = styled.div`
-    z-index: 1;
     width: 100%;
     bottom: 0;
+    pointer-events: none;
 `;

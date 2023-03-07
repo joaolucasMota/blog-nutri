@@ -7,12 +7,16 @@ interface NavbarMenuProps {
 
 export const Navbar = styled.nav`
   background-color: var(--backgroundFirst);
-  height: 6rem;
+  height: 7rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
   box-shadow: -4px 1px 16px 0px rgba(0, 0, 0, 0.245);
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  margin-top: -.1rem;
 `;
 
 export const Icon = styled.div`
@@ -42,13 +46,15 @@ export const NavbarMenuContainer = styled.div<NavbarMenuProps>`
   justify-content: flex-start;
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
   flex-direction: column;
   align-items: center;
   background-color: var(--backgroundFirst);
   z-index: 2;
-  padding-top: 1rem;
+  padding-top: 7rem;
+  overflow-y: auto;
+  padding-bottom: 3rem;
 `;
 
 export const NavbarMenu = styled.ul`
@@ -62,6 +68,7 @@ export const NavbarMenu = styled.ul`
   align-items: center;
   justify-content: center;
   transition: all 1s ease-in-out;
+  padding-top: 2rem;
 `;
 
 export const NavbarMenuItem = styled.li`
@@ -74,7 +81,6 @@ export const NavbarMenuItem = styled.li`
     text-decoration: none;
     color: var(--title);
     }
-
     a::after {
     content: "";
     position: absolute;
@@ -137,9 +143,11 @@ export const Services = styled.li`
 `;
 
 export const Informations = styled.div`
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-size: 1rem;
   color: grey;
+  text-align: center;
+  margin-bottom: 1rem;
 `;
 
 export const Button = styled.button`
@@ -150,7 +158,6 @@ export const Button = styled.button`
   color: var(--title);
   transition: all 0.3s ease-in-out;
   font-weight: 600;
-  margin-top: 3rem;
   &:hover{
     box-shadow: 1px -1px 10px 4px var(--backgroundSecond);
     background: radial-gradient(circle at top left, transparent 10%, #fff 10%);

@@ -1,18 +1,16 @@
-import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/TranstornoAlimentar.styles'
-import { Footer } from "../components/Web/footer/Footer";
+import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/MobileTranstornoAlimentar'
+import { MobileFooter } from "../components/Mobile/mobileFooter/mobileFooter";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-
-
-export default function TranstornoAlimentar(){
+export default function MobileTranstornoAlimentar(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
 
     return(
-            <Container id="section9">
+        <Container id="section9">
                 <Title>
                     <label>Nossa metodologia com base científica para</label>
                     <h1>Transtorno alimentar</h1>
@@ -28,17 +26,17 @@ export default function TranstornoAlimentar(){
                         </Link>
 
                     </Info>
-                    <Img>
-                        <div><img src="https://images.pexels.com/photos/6975474/pexels-photo-6975474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="transtorno alimentar" /></div>
-                    </Img>
                 </InfoAndImg>
+                <Img>
+                    <div><img src="https://images.pexels.com/photos/6975474/pexels-photo-6975474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="transtorno alimentar" /></div>
+                </Img>
                 <SVG>
                     <svg viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0,250 C250,150 750,400 1000,250 L1000,500 L0,500 Z" fill="#bbe3cd" opacity="0.5"/>
                         <path d="M0,270 C250,170 750,390 1000,270 L1000,500 L0,500 Z" fill="#bbe3cd"/>
                     </svg>
                  </SVG>
-                 <Footer/>
+                 <MobileFooter/>
             </Container>
     )
 }
