@@ -25,7 +25,7 @@ export const Icon = styled.div`
     }
 `;
 
-export const Logo = styled.a`
+export const Logo = styled.div`
   & img{
     width: 7.5rem;
     height: 7.5rem;

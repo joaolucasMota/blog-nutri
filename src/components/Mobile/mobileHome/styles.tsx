@@ -1,11 +1,21 @@
 import styled from "styled-components";
 
 export const SuperHomeContainer = styled.div`
-        width: 100%;
-        background-image: url('https://64.media.tumblr.com/d8b3ce6643654c58c2b4c1e19afa7c01/3d1c0c126410384d-bf/s500x750/ebed0d00714a7788517c735b69cb675880f1a8f0.pnj');
-        background-size: cover;
-        background-attachment: fixed;
-        background-position: center;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        &::after{
+            background-image: url('https://i.imgur.com/CFA1xa2.png');
+            background-position: center;
+            background-size: cover;
+            position: absolute;
+            content: "";
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+    }  
 `;
 
 export const HomeContainer = styled.div`

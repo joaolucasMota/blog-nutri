@@ -46,6 +46,7 @@ export const Infos = styled.p`
         padding: 2rem;
         margin-top: -4rem;
         opacity: .9;
+        text-align: center;
     }
 `;
 

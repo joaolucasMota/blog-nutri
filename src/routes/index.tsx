@@ -18,6 +18,9 @@ import MobileTranstornoAlimentar from "../pages/MobileTranstornoAlimentar";
 import MobileNutricaoEsportiva from "../pages/MobileNutricaoEsportiva";
 import MobileReeducacaoAlimentar from "../pages/MobileReeducacaoAlimentar";
 import MobileIntoleranciaAlimentar from "../pages/MobileIntoleranciaAlimentar";
+import MobileMetodo from "../pages/MobileMetodo";
+import MobileSobre from "../pages/MobileSobre";
+import MobileContato from "../pages/MobileContato";
 
 
 export default function RoutesApp(){
@@ -40,6 +43,9 @@ export default function RoutesApp(){
                 <Route path="/m-nutricao-esportiva" element={<MobileNutricaoEsportiva/>}/>
                 <Route path="/m-reeducacao-alimentar" element={<MobileReeducacaoAlimentar/>}/>
                 <Route path="/m-intolerancia-alimentar" element={<MobileIntoleranciaAlimentar/>}/>
+                <Route path="/m-sobre" element={<MobileSobre/>}/>
+                <Route path="/m-metodo" element={<MobileMetodo/>}/>
+                <Route path="/m-contato" element={<MobileContato/>}/>
             </Routes>
 
         </BrowserRouter>

@@ -14,7 +14,7 @@ export function MobileAbout(){
                 <br />
                 <h2>Emily Cadete</h2>
                 <br /><hr /><br />
-                <p><strong>Nutricionista por paixão e amor a profissão</strong>.  A palavra equilíbrio <br /> sempre me acompanha e levo em conta as individualidades da<br /> paciente, acolhendo-a de forma singular, notando suas nuances, estilo<br/> de vida, desejos e dúvidas.</p>
+                <p><strong>Nutricionista por paixão e amor a profissão</strong>.  A palavra equilíbrio sempre me acompanha e levo em conta as individualidades da paciente, acolhendo-a de forma singular, notando suas nuances, estilo de vida, desejos e dúvidas.</p>
             </Infos>
             <Link target="_blank" to= "https://wa.me/5511913629808?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consulta">
                 <Button>

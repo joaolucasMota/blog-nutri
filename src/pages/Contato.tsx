@@ -1,4 +1,3 @@
-import { isMobile } from "react-device-detect";
 import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/Contato.styles';
 import { Footer } from "../components/Web/footer/Footer";
 import { Link } from "react-router-dom";
@@ -11,8 +10,6 @@ export default function Contato(){
       }, []);
 
     return(
-        <>
-        {isMobile ? (null) :(
             <Container id="section9">
                 <Title>
                     <label></label>
@@ -42,8 +39,5 @@ export default function Contato(){
                  </SVG>
                  <Footer/>
             </Container>
-            
-        )}
-        </>
     )
 }

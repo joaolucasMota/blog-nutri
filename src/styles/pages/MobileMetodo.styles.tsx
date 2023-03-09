@@ -12,17 +12,17 @@ export const Title = styled.div`
     &::after{
         color: red;
         margin-top: 10rem;
-        background-image: url('https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-image: url('https://images.pexels.com/photos/1172019/pexels-photo-1172019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
         background-position: center;
         position: absolute;
         content: "";
         opacity: .2;
         z-index: -1;
         width: 100%;
-        height: 15rem;  
+        height: 9rem;  
     }
     label {
-        padding-top: 12rem;
+        padding-top: 10rem;
         font-weight: bold;
         opacity: .8;
         color: var(--title);
@@ -39,7 +39,7 @@ export const InfoAndImg = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 2rem;
 `;
 

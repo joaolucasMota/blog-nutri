@@ -19,7 +19,7 @@ export const Title = styled.div`
         opacity: .2;
         z-index: -1;
         width: 100%;
-        height: 20rem;  
+        height: 15rem;  
     }
     label {
         padding-top: 12rem;
@@ -39,7 +39,7 @@ export const InfoAndImg = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 7rem;
+    margin-top: 5rem;
     padding: 2rem;
 `;
 

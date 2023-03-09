@@ -1,9 +1,9 @@
-import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/Metodo.styles'
-import { Footer } from "../components/Web/footer/Footer";
+import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/MobileMetodo.styles'
+import { MobileFooter } from '../components/Mobile/mobileFooter/mobileFooter';
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
-export default function Metodo(){
+export default function MobileMetodo(){
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -26,17 +26,17 @@ export default function Metodo(){
                         </Link>
 
                     </Info>
-                    <Img>
-                        <div><img src="https://images.pexels.com/photos/1172019/pexels-photo-1172019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="metodologia" /></div>
-                    </Img>
                 </InfoAndImg>
+                <Img>
+                    <div><img src="https://images.pexels.com/photos/1172019/pexels-photo-1172019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="metodologia" /></div>
+                </Img>
                 <SVG>
                     <svg viewBox="0 0 1000 320" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0,250 C250,150 750,400 1000,250 L1000,500 L0,500 Z" fill="#bbe3cd" opacity="0.5"/>
                         <path d="M0,270 C250,170 750,390 1000,270 L1000,500 L0,500 Z" fill="#bbe3cd"/>
                     </svg>
                  </SVG>
-                 <Footer/>
+                 <MobileFooter/>
             </Container>
     )
 }

@@ -19,10 +19,10 @@ export const Title = styled.div`
         opacity: .2;
         z-index: -1;
         width: 100%;
-        height: 15rem;  
+        height: 9rem;  
     }
     label {
-        padding-top: 12rem;
+        padding-top: 10rem;
         font-weight: bold;
         opacity: .8;
         color: var(--title);
@@ -39,7 +39,7 @@ export const InfoAndImg = styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5rem;
+    margin-top: 3rem;
     padding: 2rem;
 `;
 

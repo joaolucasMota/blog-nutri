@@ -1,5 +1,5 @@
 import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/MobileReeducacaoAlimentar.styles'
-import { Footer } from "../components/Web/footer/Footer";
+import { MobileFooter } from '../components/Mobile/mobileFooter/mobileFooter';
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -36,7 +36,7 @@ export default function MobileReeducacaoAlimentar(){
                         <path d="M0,270 C250,170 750,390 1000,270 L1000,500 L0,500 Z" fill="#bbe3cd"/>
                     </svg>
                 </SVG>
-                <Footer/>
+                <MobileFooter/>
             </Container>
     )
 }

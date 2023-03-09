@@ -36,7 +36,7 @@ export function MobileHeader(){
               <BsFillTelephoneFill size={20}/>
             </Link>
         </Icon>
-        <Logo href="#">
+        <Logo>
             <Link to='/'><img src={LogoNav} alt="Logo" /></Link>
         </Logo>
         <MenuIcon onClick={toggleNavbar}>
@@ -58,14 +58,14 @@ export function MobileHeader(){
             ):(null)}
             
         </Services>
-          <NavbarMenuItem>
-            <a href="#">Método</a>
+          <NavbarMenuItem onClick={toggleNavbar}>
+            <Link to="/m-metodo">Método</Link>
           </NavbarMenuItem>
-          <NavbarMenuItem>
-            <a href="#">Sobre</a>
+          <NavbarMenuItem onClick={toggleNavbar}>
+            <Link to="/m-sobre">Sobre</Link>
           </NavbarMenuItem>
-          <NavbarMenuItem>
-            <a href="#">Contato</a>
+          <NavbarMenuItem onClick={toggleNavbar}>
+            <Link to="/m-contato">Contato</Link>
           </NavbarMenuItem>
         </NavbarMenu>
           <Informations>
