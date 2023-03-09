@@ -32,7 +32,9 @@ export function MobileHeader(){
         <>
       <Navbar>
         <Icon>
-            <BsFillTelephoneFill size={20}/>
+            <Link target="_blank" to= "https://wa.me/5511913629808?text=Ol%C3%A1!%20Tenho%20interesse%20na%20consulta">
+              <BsFillTelephoneFill size={20}/>
+            </Link>
         </Icon>
         <Logo href="#">
             <Link to='/'><img src={LogoNav} alt="Logo" /></Link>
@@ -49,9 +51,9 @@ export function MobileHeader(){
               <ul>
               <li onClick={toggleNavbar}><Link to="/m-emagrecimento-obesidade">Emagrecimento & obesidade</Link></li>
               <li onClick={toggleNavbar}><Link to="/m-transtorno-alimentar">Transtorno alimentar</Link></li>
-              <li onClick={toggleNavbar}><a href="#">Nutrição esportiva</a></li>
-              <li onClick={toggleNavbar}><a href="#">Reeducação alimentar</a></li>
-              <li onClick={toggleNavbar}><a href="#">Intolerância ou alergia alimentar</a></li>
+              <li onClick={toggleNavbar}><Link to="/m-nutricao-esportiva">Nutrição esportiva</Link></li>
+              <li onClick={toggleNavbar}><Link to="/m-reeducacao-alimentar">Reeducação alimentar</Link></li>
+              <li onClick={toggleNavbar}><Link to="/m-intolerancia-alimentar">Intolerância ou alergia alimentar</Link></li>
           </ul>
             ):(null)}
             

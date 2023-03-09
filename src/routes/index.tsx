@@ -15,6 +15,11 @@ import Contato from "../pages/Contato";
 
 import MobileEmagrecimentoObesidade from "../pages/MobileEmagrecimentoObesidade";
 import MobileTranstornoAlimentar from "../pages/MobileTranstornoAlimentar";
+import MobileNutricaoEsportiva from "../pages/MobileNutricaoEsportiva";
+import MobileReeducacaoAlimentar from "../pages/MobileReeducacaoAlimentar";
+import MobileIntoleranciaAlimentar from "../pages/MobileIntoleranciaAlimentar";
+
+
 export default function RoutesApp(){
     return(
         <BrowserRouter>
@@ -32,6 +37,9 @@ export default function RoutesApp(){
 
                 <Route path="/m-emagrecimento-obesidade" element={<MobileEmagrecimentoObesidade/>}/>
                 <Route path="/m-transtorno-alimentar" element={<MobileTranstornoAlimentar/>}/>
+                <Route path="/m-nutricao-esportiva" element={<MobileNutricaoEsportiva/>}/>
+                <Route path="/m-reeducacao-alimentar" element={<MobileReeducacaoAlimentar/>}/>
+                <Route path="/m-intolerancia-alimentar" element={<MobileIntoleranciaAlimentar/>}/>
             </Routes>
 
         </BrowserRouter>

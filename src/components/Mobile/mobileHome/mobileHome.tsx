@@ -5,7 +5,7 @@ export function MobileHome(){
     return(
         <SuperHomeContainer id='section9'>
         <HomeContainer>
-            <label>CRN-0:00000</label>
+            <label>CRN-3: 77797/P</label>
             <p>Nutricionista</p>
             <h2>Emily Cadete</h2>
             <h4>Emgrecimento, Performance,<br/> Bem-estar e Qualidade de Vida</h4>

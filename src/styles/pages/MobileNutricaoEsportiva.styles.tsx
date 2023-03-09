@@ -12,7 +12,7 @@ export const Title = styled.div`
     &::after{
         color: red;
         margin-top: 10rem;
-        background-image: url('https://images.pexels.com/photos/867349/pexels-photo-867349.jpeg?auto=compress&cs=tinysrgb&w=1600');
+        background-image: url('https://images.pexels.com/photos/1414126/pexels-photo-1414126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
         background-position: center;
         position: absolute;
         content: "";
@@ -49,11 +49,11 @@ export const Info = styled.div`
         font-weight: bold;
         opacity: .8;
         color: var(--title);
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     h1 {
         opacity: .8;
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     p {
         width: 100%;

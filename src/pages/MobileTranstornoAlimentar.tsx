@@ -1,4 +1,4 @@
-import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/MobileTranstornoAlimentar'
+import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/MobileTranstornoAlimentar.styles'
 import { MobileFooter } from "../components/Mobile/mobileFooter/mobileFooter";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";

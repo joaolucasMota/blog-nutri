@@ -1,4 +1,3 @@
-import { isMobile } from "react-device-detect";
 import {Container, Title, InfoAndImg, Img, Info, SVG} from '../styles/pages/IntoleranciaAlimentar.styles'
 import { Footer } from "../components/Web/footer/Footer";
 import { Link } from "react-router-dom";
@@ -11,8 +10,6 @@ export default function IntoleranciaAlimentar(){
       }, []);
 
     return(
-        <>
-        {isMobile ? (null) :(
             <Container id="section9">
                 <Title>
                     <label>Nossa metodologia com base científica para</label>
@@ -41,8 +38,5 @@ export default function IntoleranciaAlimentar(){
                  </SVG>
                  <Footer/>
             </Container>
-            
-        )}
-        </>
     )
 }
